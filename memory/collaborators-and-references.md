@@ -10,6 +10,7 @@ metadata:
 **Key collaborators (design discussions):**
 - @thiva-k — participates in GitHub discussions and design reviews
 - @shashimalcse — participates in GitHub discussions and design reviews
+- Additional collaborators exist — Sahan will specify who to CC per discussion/issue
 
 **CODEOWNERS (frontend):**
 - @brionmario — Gate app, frontend packages

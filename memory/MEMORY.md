@@ -3,12 +3,15 @@
 ## User & Workflow
 - [User Profile](user-profile.md) — Sahan's role, expertise, IAM domain knowledge, working style
 - [Challenge Ideas](feedback-challenge-ideas.md) — Provide counter-arguments, don't just agree
+- [No Default CC](feedback-no-default-cc.md) — Don't assume who to CC; ask Sahan each time
 - [Session Protocol](session-protocol.md) — Auto-update memory at end of every chat session
 
 ## Design Principles
 - [Design Principles](design-principles.md) — Scope/claims separation, avoid over-engineering, OTel philosophy
 
 ## Active Work Streams
+- [CIBA Implementation](ciba-implementation.md) — Issue #2739, Discussion #2740, poll mode, flow-based internal design
+- [OAuth as Flows Vision](oauth-as-flows-vision.md) — Long-term plan: grants as pluggable flows, grant executor pattern
 - [RFC 8707 Resource Indicators](rfc8707-resource-indicators.md) — Resource param → Resource Server, 3 open blockers
 - [Auth Claims in JWT](auth-claims-jwt.md) — Issue #1931, roles/permissions in tokens, authorization_details
 - [Event Publishing](event-publishing.md) — OTel SDK approach decided, moving to implementation
@@ -23,4 +26,4 @@
 
 ## Project Context
 - [ThunderID Overview](thunderid-overview.md) — Open-source OAuth2/IAM platform, Asgardeo/WSO2
-- [Collaborators & References](collaborators-and-references.md) — @thiva-k, @shashimalcse, CODEOWNERS, industry refs, GitHub templates
+- [Collaborators & References](collaborators-and-references.md) — CODEOWNERS, industry refs, GitHub templates; ask Sahan who to CC

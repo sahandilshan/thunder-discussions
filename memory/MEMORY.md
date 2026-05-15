@@ -21,6 +21,9 @@
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities
 - [GitHub Project State](github-project-state.md) — Milestones, labels, 20 discussions, issue templates, release cadence
 
+## Research
+- [MCP IAM Vendor Research](mcp-iam-vendor-research.md) — How Auth0, Okta, Entra, Google, WorkOS, Descope etc. support MCP; ThunderID opportunities
+
 ## Planning
 - [Documentation Plans](documentation-plans.md) — Persona-based doc structure proposed
 

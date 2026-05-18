@@ -1,28 +1,33 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-05-15 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-05-18 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-05-15. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-05-18. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 12 | Features: 3 | Improvements: 14
+Total open: 50 | Bugs: 12 | Features: 5 | Improvements: 13
 
 ## Milestones
 
-0.39.0 due:2026-05-21T00:00:00Z open:52 closed:3
+0.40.0 due:2026-05-21T00:00:00Z open:49 closed:0
 
 ## Latest Releases
 
+v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 v0.38.0 2026-05-14T06:24:55Z ThunderID v0.38.0
 v0.37.0 2026-05-08T15:49:15Z ThunderID v0.37.0
-v0.36.0 2026-04-30T16:09:28Z Thunder v0.36.0
 
 ## Recent Discussions (newest first)
 
+#2776 Proposing public oauth & flow package [Ideas]
+#2764 [Design Discussion] Flow Management Metadata Endpoint (`GET /flows/meta`) [Design]
+#2744 [Design Discussion] Client verification enhancement for app native flows [Design]
+#2740 [Design Discussion] Client-Initiated Backchannel Authentication (CIBA) [Design]
+#2736 [Design Discussion] Link Aggregation [Design]
 #2731 Session management design: Important requirements to consider [Ideas]
 #2730 [Design Discussion] B2B Modeling for ThunderID — Resource Scoping & OU Profiles [Design]
 #2719 B2B Identity Patterns Across Industries [General]
@@ -38,11 +43,6 @@ v0.36.0 2026-04-30T16:09:28Z Thunder v0.36.0
 #2391 [Design Discussion] Schema-Driven Dynamic Input Collection for Provisioning Executor [Design]
 #2375 [Design Discussion] Pre/ Post Execution Hooks for Flow Validations [Design]
 #2330 Should the year in license header be updated when a file is moved ? [Q&A]
-#2325 Handle optional inputs in flow execution backend [General]
-#2323 Encrypt all sensitive data in flow context [Design]
-#2321 [Design Discussion] Runtime-Dynamic Prompt Inputs for Flow Executors [Design]
-#2302 DPoP Support for Thunder (RFC 9449) [Design]
-#2298 Add Pushed Authorization Requests (RFC 9126) Support [Design]
 
 ## Labels (36 total)
 

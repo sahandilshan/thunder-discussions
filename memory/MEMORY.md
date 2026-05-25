@@ -23,6 +23,7 @@
 
 ## Research
 - [MCP IAM Vendor Research](mcp-iam-vendor-research.md) — How Auth0, Okta, Entra, Google, WorkOS, Descope etc. support MCP; ThunderID opportunities
+- [Token Cleanup Discussion](token-cleanup-discussion.md) — Discussion #2781, vendor analysis on token purge strategies across 6 IAM platforms
 
 ## Planning
 - [Documentation Plans](documentation-plans.md) — Persona-based doc structure proposed

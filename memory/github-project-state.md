@@ -1,28 +1,37 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-05-18 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-05-25 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-05-18. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-05-25. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 12 | Features: 5 | Improvements: 13
+Total open: 50 | Bugs: 13 | Features: 1 | Improvements: 11
 
 ## Milestones
 
-0.40.0 due:2026-05-21T00:00:00Z open:49 closed:0
+0.41.0 due:2026-05-28T00:00:00Z open:38 closed:3
+0.42.0 due:2026-06-04T00:00:00Z open:5 closed:0
+0.43.0 due:2026-06-11T00:00:00Z open:0 closed:0
+0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
+0.45.0 due:2026-06-25T00:00:00Z open:0 closed:0
 
 ## Latest Releases
 
+v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 v0.38.0 2026-05-14T06:24:55Z ThunderID v0.38.0
-v0.37.0 2026-05-08T15:49:15Z ThunderID v0.37.0
 
 ## Recent Discussions (newest first)
 
+#2957 Handeling PKCE in MagicLink [General]
+#2914 How to handle consent in ThunderID. [Ideas]
+#2817 Documentation Improvements: IDP Guides, SMS Notifications, Application Configs, and a New Protocols Section [General]
+#2797 B2C/ CIAM Documentation Plan [General]
+#2781 RuntimeDB Cleanup: Hardening Expired Data Purge for Production [Ideas]
 #2776 Proposing public oauth & flow package [Ideas]
 #2764 [Design Discussion] Flow Management Metadata Endpoint (`GET /flows/meta`) [Design]
 #2744 [Design Discussion] Client verification enhancement for app native flows [Design]
@@ -38,11 +47,6 @@ v0.37.0 2026-05-08T15:49:15Z ThunderID v0.37.0
 #2625 [Design Discussion] Resource Action Consent/ Consent for Permissions [Design]
 #2556 How to handle REGISTRATION_FLOW_ID NOT NULL when auto-infer is disabled [Design]
 #2472 Cross-Package Database Table Access [General]
-#2410 [Design Discussion] Input Validation for Flow Inputs [Design]
-#2392 [Discussion] i18n-incompatible error patterns [General]
-#2391 [Design Discussion] Schema-Driven Dynamic Input Collection for Provisioning Executor [Design]
-#2375 [Design Discussion] Pre/ Post Execution Hooks for Flow Validations [Design]
-#2330 Should the year in license header be updated when a file is moved ? [Q&A]
 
 ## Labels (36 total)
 

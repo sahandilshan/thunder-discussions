@@ -1,23 +1,23 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-05-25 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-05-28 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-05-25. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-05-28. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 13 | Features: 1 | Improvements: 11
+Total open: 50 | Bugs: 10 | Features: 1 | Improvements: 18
 
 ## Milestones
 
-0.41.0 due:2026-05-28T00:00:00Z open:38 closed:3
+0.41.0 due:2026-05-28T00:00:00Z open:45 closed:12
 0.42.0 due:2026-06-04T00:00:00Z open:5 closed:0
 0.43.0 due:2026-06-11T00:00:00Z open:0 closed:0
 0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
-0.45.0 due:2026-06-25T00:00:00Z open:0 closed:0
+0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
 ## Latest Releases
 
@@ -27,6 +27,7 @@ v0.38.0 2026-05-14T06:24:55Z ThunderID v0.38.0
 
 ## Recent Discussions (newest first)
 
+#3004 [Design Discussion] CAPTCHA Support for UIs & SDKs [Design]
 #2957 Handeling PKCE in MagicLink [General]
 #2914 How to handle consent in ThunderID. [Ideas]
 #2817 Documentation Improvements: IDP Guides, SMS Notifications, Application Configs, and a New Protocols Section [General]
@@ -46,7 +47,6 @@ v0.38.0 2026-05-14T06:24:55Z ThunderID v0.38.0
 #2626 New branding for Thunder ID [General]
 #2625 [Design Discussion] Resource Action Consent/ Consent for Permissions [Design]
 #2556 How to handle REGISTRATION_FLOW_ID NOT NULL when auto-infer is disabled [Design]
-#2472 Cross-Package Database Table Access [General]
 
 ## Labels (36 total)
 

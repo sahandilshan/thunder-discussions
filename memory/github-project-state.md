@@ -1,29 +1,29 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-05-29 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-01 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-05-29. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-01. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 11 | Features: 1 | Improvements: 17
+Total open: 50 | Bugs: 10 | Features: 1 | Improvements: 16
 
 ## Milestones
 
-0.41.0 due:2026-05-28T00:00:00Z open:40 closed:18
-0.42.0 due:2026-06-04T00:00:00Z open:7 closed:0
+0.41.0 due:2026-05-28T00:00:00Z open:39 closed:19
+0.42.0 due:2026-06-04T00:00:00Z open:9 closed:0
 0.43.0 due:2026-06-11T00:00:00Z open:0 closed:0
 0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
 0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
 ## Latest Releases
 
+v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
-v0.38.0 2026-05-14T06:24:55Z ThunderID v0.38.0
 
 ## Recent Discussions (newest first)
 

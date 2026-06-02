@@ -1,7 +1,7 @@
 ---
 name: ciba-implementation
-description: "CIBA onboarding to ThunderID — issue #2739, design discussion #2740, revised hybrid implementation approach"
-metadata: 
+description: "CIBA onboarding to ThunderID — issue #2739, design discussion #2740, converged on Notification Dispatch utility flow + procedural orchestration (Option B)"
+metadata:
   node_type: memory
   type: project
   originSessionId: 9f812337-c650-4544-ac44-77e35e106537
@@ -10,32 +10,36 @@ metadata:
 CIBA (OpenID Connect Client-Initiated Backchannel Authentication) is being onboarded to ThunderID.
 
 - **Feature Issue:** #2739
-- **Design Discussion:** #2740 (revised implementation comment posted 2026-05-14)
-- **Scope:** Poll mode only (ping/push deferred)
-- **Notification channels:** SMS/Email (push notifications deferred)
+- **Design Discussion:** #2740 (converged-approach comment posted 2026-05-15)
+- **Scope:** Poll mode only (ping/push deferred); SMS/Email notification (push deferred); confidential clients only
 
-**Architecture decisions (revised 2026-05-14):**
+## Converged design (2026-05-15) — supersedes earlier FlowTypeCIBA proposal
 
-The original proposal (flow-based grant executor: `ClientValidator → IdentifyingExecutor → CIBAGrantExecutor`) was revised after verifying the architecture. Current grant handlers are procedural (`ValidateGrant` + `HandleGrant`), and the flow-based grant pattern doesn't exist yet.
+Team feedback (@ThaminduDilshan, @yudin-s, @senthalan) rejected bringing protocol specifics into the flow engine. Key principle: keep flow engine protocol-neutral with pre-processing → flow execution → post-processing layers (OAuth/CIBA logic in pre/post, native auth in the engine).
 
-**Hybrid approach decided:**
-- **Procedural layer:** New `CIBAGrantHandler` + `/oauth2/bc-authorize` endpoint + token endpoint extension for polling
-- **Internal system flow:** Notification + async user auth runs as a standard ThunderID flow, initiated programmatically via `flowExecService.InitiateFlow()` (same pattern OAuth authorize endpoint uses)
-- **Flow graph:** `START → NotificationDispatch → Authentication → Authorization → AuthAssertion → END`
-- **New flow type:** `FlowTypeCIBA` added to `flow/common/constants.go`
-- **Internal flow only** — not exposed in Console flow builder UI initially
+**What changed from the earlier note:**
+- **NO `FlowTypeCIBA`.** CIBA authentication runs in a normal `AUTHENTICATION` flow — same human auth, just reached via a backchannel protocol.
+- **Notification Dispatch = separate protocol-neutral UTILITY flow** (proposed flow category `UTILITY`). Pure "send a notification out of ThunderID," configurable: what notification + which delivery method(s). Reusable by any flow (magic link etc.); CIBA is just the first consumer. NOT a node baked into a CIBA flow.
 
-**Key finding:** The flow engine is HTTP-agnostic (`context.Context`, not `*http.Request`). Executors (SMS, Email, Auth, AuthAssertion) have zero HTTP dependencies. The OAuth authorize endpoint already calls `InitiateFlow()` programmatically — this is the proven pattern CIBA reuses.
+**Two invocation options for wiring dispatch → auth:**
+- **Option A (in-graph):** CIBA auth flow starts with a CALL node into the notification-dispatch utility flow. Uses the cross-flow CALL node from discussion **#2639** (still OPEN/unagreed — flow-type-category question, per-frame context split, phase-2 same-type/sub-flow fork all unresolved).
+- **Option B (procedural) — CHOSEN for v1:** `/bc-authorize` grant handler invokes notification-dispatch via `InitiateFlow()` (same pattern the OAuth authorize endpoint already uses). No new engine capability, no dependency on #2639. Keeps protocol orchestration in the protocol layer.
 
-**Execution phases:**
-1. bc-authorize creates `auth_req_id` state, initiates flow, notification fires, flow pauses at Authentication node
-2. User taps notification link → Gate resumes flow with `executionID` → auth + authz + assertion → writes approval to RuntimeDB
-3. Client polls `/token` → CIBAGrantHandler reads `auth_req_id` state → returns tokens or `authorization_pending`
+**Why B:** Don't put CIBA on #2639's critical path. Utility flow is identical in both options — only invocation differs — so B→A migration later is cheap (swap procedural InitiateFlow for a CALL node in the flow definition; also unlocks in-graph reuse for any auth flow).
 
-**Key context:** CIBA is also positioned as an enabler for ambient agent authentication (AI agents obtaining user approval without browser redirects).
+## Execution model (v1, poll, Option B)
 
-**Why:** Sahan's task is to onboard CIBA. Hybrid approach is the pragmatic path — uses the flow engine for composability without waiting for the full "grants as pluggable flows" infrastructure.
+Two flows start at TWO DIFFERENT TIMES:
+1. **At `/bc-authorize`** (client waiting): validate client, resolve user from login_hint, create `auth_req_id` state in RuntimeDB {client_id, user_id, scope, binding_message, status:pending, expiry, interval}, `InitiateFlow(notification-dispatch)` (runs to completion synchronously, sends notification; **link carries auth_req_id, NOT executionId**), return auth_req_id + interval + expiry.
+2. **At user tap** (their device, later): Gate resolves auth_req_id → app's authentication flow, `InitiateFlow(authentication-flow)` with context {auth_req_id, ...} → **executionId created here, auth_req_id↔executionId mapping stored here** → authenticate → authorization → auth_assert writes {status:approved, user, scopes} back into auth_req_id state.
+3. **At `/token` poll:** CIBAGrantHandler reads auth_req_id state → pending/approved/denied/expired.
 
-**How to apply:** Reference this when discussing CIBA implementation details, related OAuth flow architecture, or agent authentication patterns.
+**Key:** `auth_req_id` is the durable anchor (created up front); `executionId` created lazily on tap. Auth flow is triggered by the user's tap, never by `/bc-authorize`. No parked auth execution that might be ignored.
+
+**Key context:** CIBA also positioned as an enabler for ambient agent authentication (AI agents obtaining user approval without browser redirects) — see issue #2739.
+
+**Why:** Sahan's task is to onboard CIBA. Option B is the pragmatic path — uses the flow engine's existing programmatic InitiateFlow for composability without waiting on the unresolved #2639 CALL node or the full "grants as pluggable flows" vision.
+
+**How to apply:** Reference when discussing CIBA implementation, notification dispatch utility flow, the #2639 CALL node dependency, or agent authentication patterns.
 
 Related: [[codebase-architecture]], [[oauth-as-flows-vision]], [[thunderid-overview]]

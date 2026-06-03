@@ -1,21 +1,20 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-02 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-03 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-02. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-03. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 11 | Features: 1 | Improvements: 14
+Total open: 50 | Bugs: 11 | Features: 1 | Improvements: 15
 
 ## Milestones
 
-0.41.0 due:2026-05-28T00:00:00Z open:31 closed:22
-0.42.0 due:2026-06-04T00:00:00Z open:12 closed:0
-0.43.0 due:2026-06-11T00:00:00Z open:0 closed:0
+0.42.0 due:2026-06-04T00:00:00Z open:40 closed:2
+0.43.0 due:2026-06-11T00:00:00Z open:4 closed:0
 0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
 0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
@@ -27,6 +26,7 @@ v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 
 ## Recent Discussions (newest first)
 
+#3099 [OID4VP] Support login with Verifiable Presentations [General]
 #3053 Make admin user creation optional during setup [Ideas]
 #3051 Move SDKs out of the monorepo into separate repositories [Ideas]
 #3004 [Design Discussion] CAPTCHA Support for UIs & SDKs [Design]
@@ -46,7 +46,6 @@ v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 #2710 [Design Discussion] Support to publish events to Kafka brokers (Kafka subscriber) [Design]
 #2662 [Design Discussion] Prompted input state handling for skipped and optional flow inputs [Design]
 #2639 [Design Discussion] Cross-Flow Invocation via a Call Node [Design]
-#2626 New branding for Thunder ID [General]
 
 ## Labels (36 total)
 

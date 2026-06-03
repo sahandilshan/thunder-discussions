@@ -21,6 +21,9 @@
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities
 - [GitHub Project State](github-project-state.md) — Milestones, labels, 20 discussions, issue templates, release cadence
 
+## Security
+- [PII Logging Audit](pii-logging-audit.md) — Discussion #3103, 15 PII leakage instances in error-path logging
+
 ## Research
 - [MCP IAM Vendor Research](mcp-iam-vendor-research.md) — How Auth0, Okta, Entra, Google, WorkOS, Descope etc. support MCP; ThunderID opportunities
 - [Token Cleanup Discussion](token-cleanup-discussion.md) — Discussion #2781, vendor analysis on token purge strategies across 6 IAM platforms

@@ -16,6 +16,7 @@
 - [Auth Claims in JWT](auth-claims-jwt.md) — Issue #1931, roles/permissions in tokens, authorization_details
 - [Event Publishing](event-publishing.md) — OTel SDK approach decided, moving to implementation
 - [Security Review](security-review-wso2.md) — WSO2 issue #2805, items [c][d] still open
+- [Agent Identity in Tokens](agent-identity-tokens.md) — Discussion #3128, M2M sub claim, OBO act claim, agent-to-app auth gaps
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

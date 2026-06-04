@@ -1,11 +1,11 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-03 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-04 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-03. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-04. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
@@ -13,8 +13,8 @@ Total open: 50 | Bugs: 10 | Features: 6 | Improvements: 16
 
 ## Milestones
 
-0.42.0 due:2026-06-04T00:00:00Z open:38 closed:3
-0.43.0 due:2026-06-11T00:00:00Z open:5 closed:0
+0.42.0 due:2026-06-04T00:00:00Z open:37 closed:4
+0.43.0 due:2026-06-11T00:00:00Z open:6 closed:0
 0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
 0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
@@ -26,6 +26,7 @@ v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 
 ## Recent Discussions (newest first)
 
+#3128 [Design] Agent identity resolution in M2M and OBO token flows [Design]
 #3103 PII Leakage in Error-Path Logging [Design]
 #3099 [OID4VP] Support login with Verifiable Presentations [General]
 #3053 Make admin user creation optional during setup [Ideas]
@@ -45,7 +46,6 @@ v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 #2730 [Design Discussion] B2B Modeling for ThunderID — Resource Scoping & OU Profiles [Design]
 #2719 B2B Identity Patterns Across Industries [General]
 #2710 [Design Discussion] Support to publish events to Kafka brokers (Kafka subscriber) [Design]
-#2662 [Design Discussion] Prompted input state handling for skipped and optional flow inputs [Design]
 
 ## Labels (36 total)
 

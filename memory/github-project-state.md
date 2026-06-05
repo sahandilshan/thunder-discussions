@@ -1,31 +1,33 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-04 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-05 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-04. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-05. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 10 | Features: 6 | Improvements: 16
+Total open: 50 | Bugs: 12 | Features: 6 | Improvements: 13
 
 ## Milestones
 
-0.42.0 due:2026-06-04T00:00:00Z open:37 closed:4
-0.43.0 due:2026-06-11T00:00:00Z open:6 closed:0
+0.42.0 due:2026-06-04T00:00:00Z open:34 closed:8
+0.43.0 due:2026-06-11T00:00:00Z open:9 closed:1
 0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
 0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
 ## Latest Releases
 
+v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
-v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 
 ## Recent Discussions (newest first)
 
+#3157 Mapping external IdP claims to local claims [Design]
+#3137 Cleaning-up ThunderID Release Artifacts [General]
 #3128 [Design] Agent identity resolution in M2M and OBO token flows [Design]
 #3103 PII Leakage in Error-Path Logging [Design]
 #3099 [OID4VP] Support login with Verifiable Presentations [General]
@@ -44,8 +46,6 @@ v0.39.0 2026-05-17T06:15:54Z ThunderID v0.39.0
 #2736 [Design Discussion] Link Aggregation [Design]
 #2731 Session management design: Important requirements to consider [Ideas]
 #2730 [Design Discussion] B2B Modeling for ThunderID — Resource Scoping & OU Profiles [Design]
-#2719 B2B Identity Patterns Across Industries [General]
-#2710 [Design Discussion] Support to publish events to Kafka brokers (Kafka subscriber) [Design]
 
 ## Labels (36 total)
 

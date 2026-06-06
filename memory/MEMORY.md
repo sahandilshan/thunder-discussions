@@ -17,6 +17,7 @@
 - [Event Publishing](event-publishing.md) — OTel SDK approach decided, moving to implementation
 - [Security Review](security-review-wso2.md) — WSO2 issue #2805, items [c][d] still open
 - [Agent Identity in Tokens](agent-identity-tokens.md) — Discussion #3128, M2M sub claim, OBO act claim, agent-to-app auth gaps
+- [Claim Mapping IdP](claim-mapping-idp.md) — Discussion #3157, external→local claim mapping, precedence/transform/allowlist concerns
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

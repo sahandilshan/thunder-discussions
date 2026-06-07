@@ -1,11 +1,11 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-06 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-07 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-06. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-07. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
@@ -14,18 +14,19 @@ Total open: 50 | Bugs: 10 | Features: 5 | Improvements: 15
 ## Milestones
 
 0.42.0 due:2026-06-04T00:00:00Z open:31 closed:11
-0.43.0 due:2026-06-11T00:00:00Z open:12 closed:2
+0.43.0 due:2026-06-11T00:00:00Z open:12 closed:3
 0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
 0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
 ## Latest Releases
 
-v0.43.0 2026-06-05T20:38:17Z ThunderID v0.43.0
 v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
+v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 
 ## Recent Discussions (newest first)
 
+#3181 [Design Discussion] Handling stale data when deleting resources [Design]
 #3157 Mapping external IdP claims to local claims [Design]
 #3137 Cleaning-up ThunderID Release Artifacts [General]
 #3128 [Design] Agent identity resolution in M2M and OBO token flows [Design]
@@ -45,7 +46,6 @@ v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 #2740 [Design Discussion] Client-Initiated Backchannel Authentication (CIBA) [Design]
 #2736 [Design Discussion] Link Aggregation [Design]
 #2731 Session management design: Important requirements to consider [Ideas]
-#2730 [Design Discussion] B2B Modeling for ThunderID — Resource Scoping & OU Profiles [Design]
 
 ## Labels (36 total)
 

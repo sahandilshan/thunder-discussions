@@ -18,6 +18,7 @@
 - [Security Review](security-review-wso2.md) — WSO2 issue #2805, items [c][d] still open
 - [Agent Identity in Tokens](agent-identity-tokens.md) — Discussion #3128, M2M sub claim, OBO act claim, agent-to-app auth gaps
 - [Claim Mapping IdP](claim-mapping-idp.md) — Discussion #3157, external→local claim mapping, precedence/transform/allowlist concerns
+- [Resource Server UX Rethink](resource-server-ux-rethink.md) — Discussion #3182, rename APIs→Resource Servers, add type (api/mcp/custom), fix create UX
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

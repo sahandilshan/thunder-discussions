@@ -1,21 +1,20 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-08 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-09 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-08. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-09. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 10 | Features: 5 | Improvements: 15
+Total open: 50 | Bugs: 6 | Features: 5 | Improvements: 18
 
 ## Milestones
 
-0.42.0 due:2026-06-04T00:00:00Z open:31 closed:11
-0.43.0 due:2026-06-11T00:00:00Z open:13 closed:3
-0.44.0 due:2026-06-18T00:00:00Z open:0 closed:0
+0.43.0 due:2026-06-11T00:00:00Z open:42 closed:5
+0.44.0 due:2026-06-18T00:00:00Z open:6 closed:1
 0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
 
 ## Latest Releases
@@ -26,6 +25,8 @@ v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 
 ## Recent Discussions (newest first)
 
+#3201 Session management design: definitions [Ideas]
+#3192 Passing runtime metadata from executors to AuthnProvider implementation [Ideas]
 #3182 Resource Server Console UX: Types, Naming, and Cleanup [Design]
 #3181 [Design Discussion] Handling stale data when deleting resources [Design]
 #3157 Mapping external IdP claims to local claims [Design]
@@ -44,8 +45,6 @@ v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 #2776 Proposing public oauth & flow package [Ideas]
 #2764 [Design Discussion] Flow Management Metadata Endpoint (`GET /flows/meta`) [Design]
 #2744 [Design Discussion] Client verification enhancement for app native flows [Design]
-#2740 [Design Discussion] Client-Initiated Backchannel Authentication (CIBA) [Design]
-#2736 [Design Discussion] Link Aggregation [Design]
 
 ## Labels (36 total)
 

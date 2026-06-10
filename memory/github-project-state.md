@@ -1,30 +1,34 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-09 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-10 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-09. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-10. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 6 | Features: 5 | Improvements: 18
+Total open: 50 | Bugs: 5 | Features: 5 | Improvements: 16
 
 ## Milestones
 
-0.43.0 due:2026-06-11T00:00:00Z open:42 closed:5
-0.44.0 due:2026-06-18T00:00:00Z open:6 closed:1
-0.45.0 due:2026-06-25T00:00:00Z open:1 closed:0
+0.44.0 due:2026-06-11T00:00:00Z open:50 closed:3
+0.45.0 due:2026-06-18T00:00:00Z open:2 closed:0
 
 ## Latest Releases
 
+v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
 v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
-v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 
 ## Recent Discussions (newest first)
 
+#3242 [Design Discussion] Removing the SKIP_SECURITY flag while preserving default-resource bootstrap [Design]
+#3239 [Design Discussion] SCIM 2.0 Integration For thunderID [Design]
+#3236 [Design Discussion] Adding AuthZEN-Compatible Access Evaluation APIs to ThunderID [Design]
+#3234 [Design Discussion] Atomic API Support for Magic Link based Authentication [Design]
+#3233 [Design Discussion] Configuration surface for OTP length, character set, and validity period [Design]
 #3201 Session management design: definitions [Ideas]
 #3192 Passing runtime metadata from executors to AuthnProvider implementation [Ideas]
 #3182 Resource Server Console UX: Types, Naming, and Cleanup [Design]
@@ -40,11 +44,6 @@ v0.40.0 2026-05-21T16:27:13Z ThunderID v0.40.0
 #2957 Handeling PKCE in MagicLink [General]
 #2914 How to handle consent in ThunderID. [Ideas]
 #2817 Documentation Improvements: IDP Guides, SMS Notifications, Application Configs, and a New Protocols Section [General]
-#2797 B2C/ CIAM Documentation Plan [General]
-#2781 RuntimeDB Cleanup: Hardening Expired Data Purge for Production [Ideas]
-#2776 Proposing public oauth & flow package [Ideas]
-#2764 [Design Discussion] Flow Management Metadata Endpoint (`GET /flows/meta`) [Design]
-#2744 [Design Discussion] Client verification enhancement for app native flows [Design]
 
 ## Labels (36 total)
 

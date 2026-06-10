@@ -28,7 +28,8 @@
 ## Security
 - [PII Logging Audit](pii-logging-audit.md) — Discussion #3103, 15 PII leakage instances in error-path logging
 
-## Research
+## Research & Intelligence
+- [IAM × AI Intelligence Operation](iam-ai-intelligence-operation.md) — Daily 2AM Opus scout + interactive deep-dives; 26 vendors × 10 capabilities; routine trig_01UEpDdMSzQurXVAvP35ohLf
 - [MCP IAM Vendor Research](mcp-iam-vendor-research.md) — How Auth0, Okta, Entra, Google, WorkOS, Descope etc. support MCP; ThunderID opportunities
 - [Token Cleanup Discussion](token-cleanup-discussion.md) — Discussion #2781, vendor analysis on token purge strategies across 6 IAM platforms
 

@@ -22,7 +22,18 @@ You are the **daily intelligence scout** for an IAM × AI competitive monitoring
 
 4. **Write today's signals file** at `intelligence/signals/<TODAY>.md` where `<TODAY>` is the current UTC date in `YYYY-MM-DD` format. Use the Output Format below.
 
-5. **Commit** the new file to the repo with message: `scout: daily signals <TODAY>`. Then stop.
+5. **Commit and push to main.** The cloud sandbox may start you on a different branch. Before committing, ensure you are on `main`:
+   ```
+   git checkout main
+   git pull origin main
+   ```
+   Then add and commit the signals file with message: `scout: daily signals <TODAY>`.
+   Then push explicitly to main:
+   ```
+   git push origin main
+   ```
+   If the push is rejected due to conflicts, rebase first: `git pull --rebase origin main && git push origin main`.
+   Then stop.
 
 ## Output format
 

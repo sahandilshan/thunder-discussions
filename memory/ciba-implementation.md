@@ -42,4 +42,22 @@ Two flows start at TWO DIFFERENT TIMES:
 
 **How to apply:** Reference when discussing CIBA implementation, notification dispatch utility flow, the #2639 CALL node dependency, or agent authentication patterns.
 
-Related: [[codebase-architecture]], [[oauth-as-flows-vision]], [[thunderid-overview]]
+## Phase 1 SHIPPED + Phase 2 in progress (as of 2026-06-10)
+
+- **Phase 1 (PR #3171, @Dilusha-Madushan):** poll mode + `login_hint` end-to-end. `/oauth2/bc-authorize`, shared `/oauth2/auth/callback` (dispatches authz-code vs CIBA via a `type` field), `loginHintAttribute` node prop on IdentifyingExecutor, `InitiateAndExecute` flow-exec method (runs server-side to a display-only pause). Default flows email+SMS with `binding_message` (auto-derives a short code from `auth_req_id` if client omits it). Token poll returns authorization_pending/slow_down/expired_token/access_denied; consumed after issue.
+- **Phase 2 (proposed 2026-06-10, @Dilusha-Madushan):** `id_token_hint` support. Validate JWT: `iss`=Thunder, `aud`∋client_id, `sub` present → entity ID; signature best-effort (skip if kid not in active key set); `exp` not checked. Resolve via `loginHintAttribute: "userID"` → direct `GetEntity()` instead of attribute search; entity-not-found → `unknown_user_id`. Separate flow def per hint type.
+
+## Brainstorm: id_token_hint validation gaps vs CIBA Core §14 (2026-06-10)
+
+CIBA §14 gives TWO safe paths; Phase 2 currently sits in the unsafe gap between them:
+- **Path A — verify signature:** check iss, aud, AND signature; reject (not skip) unknown `kid`. Requires retaining retired public keys + kids so genuine old tokens still verify across the rotation window.
+- **Path B — skip signature:** allowed ONLY if compensated by **pairwise subject identifiers** + verifying the presenting client was issued that pairwise sub (or shares a Sector Identifier). Salt is Thunder's secret, so a client can't compute another user's pairwise sub → forgery-resistant without signature.
+
+**Phase 2 today = skip-sig-on-unknown-kid + GLOBAL entity-id `sub` = neither path → forgery hole.** A registered confidential client can forge `{iss:thunder, aud:self, sub:victim_entity_id}` with a bogus `kid` → signature skipped → notification fired at arbitrary victim. iss/aud aren't secret (discovery + own client_id); only the signature (or pairwise sub) proves authenticity; base64-decode proves nothing.
+- Honest bound on severity: not privilege escalation (a client can already target via `login_hint`=email; user still must authenticate+consent on-device) → impact is notification spam/phishing, not token theft. But it negates id_token_hint's actual benefit (not leaking a raw identifier) and is worth closing pre-ship.
+- **Second gap:** `exp` "not checked" deviates from §14's "accept for some *reasonable period*" (bounded, not unbounded). Recommend a configurable max-age / grace window — an old leaked id_token shouldn't be a forever notification-trigger.
+
+**Action:** Sahan posted two replies to #2740 capturing these points.
+**OPEN QUESTION (gates A vs B):** Does ThunderID issue **pairwise subject identifiers**, or is `sub` always the global entity ID? If no pairwise support → Path B is unavailable → MUST go Path A (verify signature, reject unknown kid). Check thunderid repo to confirm.
+
+Related: [[codebase-architecture]], [[oauth-as-flows-vision]], [[thunderid-overview]], [[agent-identity-tokens]]

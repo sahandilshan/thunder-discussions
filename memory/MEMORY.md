@@ -19,6 +19,7 @@
 - [Agent Identity in Tokens](agent-identity-tokens.md) — Discussion #3128, M2M sub claim, OBO act claim, agent-to-app auth gaps
 - [Claim Mapping IdP](claim-mapping-idp.md) — Discussion #3157, external→local claim mapping, precedence/transform/allowlist concerns
 - [Resource Server UX Rethink](resource-server-ux-rethink.md) — Discussion #3182, rename APIs→Resource Servers, add type (api/mcp/custom), fix create UX
+- [System RS Representation](system-rs-representation.md) — Discussion #3261, system RS identity across API/MCP transports, two approaches proposed
 - [Stale Data Deletion](stale-data-deletion.md) — Discussion #3181, cascade vs fallback policy, feedback to add `restrict` + per-edge policy + second-order blast radius
 
 ## Codebase & Architecture

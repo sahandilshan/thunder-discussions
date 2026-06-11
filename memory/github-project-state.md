@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-10 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-11 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-10. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-11. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 5 | Features: 5 | Improvements: 16
+Total open: 50 | Bugs: 4 | Features: 5 | Improvements: 15
 
 ## Milestones
 
-0.44.0 due:2026-06-11T00:00:00Z open:50 closed:3
+0.44.0 due:2026-06-11T00:00:00Z open:41 closed:11
 0.45.0 due:2026-06-18T00:00:00Z open:2 closed:0
 
 ## Latest Releases
@@ -24,6 +24,7 @@ v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 
 ## Recent Discussions (newest first)
 
+#3261 How Should the System Resource Server Represent ThunderID? [Design]
 #3242 [Design Discussion] Removing the SKIP_SECURITY flag while preserving default-resource bootstrap [Design]
 #3239 [Design Discussion] SCIM 2.0 Integration For thunderID [Design]
 #3236 [Design Discussion] Adding AuthZEN-Compatible Access Evaluation APIs to ThunderID [Design]
@@ -43,7 +44,6 @@ v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 #3004 [Design Discussion] CAPTCHA Support for UIs & SDKs [Design]
 #2957 Handeling PKCE in MagicLink [General]
 #2914 How to handle consent in ThunderID. [Ideas]
-#2817 Documentation Improvements: IDP Guides, SMS Notifications, Application Configs, and a New Protocols Section [General]
 
 ## Labels (36 total)
 

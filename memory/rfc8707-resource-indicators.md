@@ -18,8 +18,10 @@ Implementing resource indicator support (RFC 8707) in Thunder. Design concluded:
 
 **Open blockers (unresolved):**
 1. Single-value `aud` claims — need multi-audience support
-2. Permission string collisions across Resource Servers
+2. Permission string collisions across Resource Servers → now its own discussion #3268 (see [[scope-rs-audience-resolution]])
 3. Resource Server identifiers not being URIs
+
+**Update 2026-06-11:** The implicit scope→`aud` reverse-lookup behavior (whether to do it at all vs. explicit-`resource`-only) is now discussion #3267. See [[scope-rs-audience-resolution]].
 
 **How to apply:** These three blockers are the immediate priority for RFC 8707 progress. Any discussion touching resource indicators, audience claims, or scope design should reference this context.
 

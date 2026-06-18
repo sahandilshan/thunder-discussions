@@ -22,6 +22,7 @@
 - [System RS Representation](system-rs-representation.md) — Discussion #3261, system RS identity across API/MCP transports, two approaches proposed
 - [Stale Data Deletion](stale-data-deletion.md) — Discussion #3181, cascade vs fallback policy, feedback to add `restrict` + per-edge policy + second-order blast radius
 - [Scope→RS Audience Resolution](scope-rs-audience-resolution.md) — Discussions #3268 (permission string uniqueness) & #3267 (implicit scope→aud vs explicit RFC 8707), deployment-level uniqueness, coupling with #3261
+- [Spec-Driven Development](spec-driven-development.md) — Discussion #3292, Brion's specs/ proposal; our feedback: enforcement (CI gate) + test vectors as source of truth
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

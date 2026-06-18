@@ -1,29 +1,35 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-12 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-18 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-12. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-18. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 6 | Features: 4 | Improvements: 17
+Total open: 50 | Bugs: 9 | Features: 0 | Improvements: 17
 
 ## Milestones
 
-0.44.0 due:2026-06-11T00:00:00Z open:41 closed:14
-0.45.0 due:2026-06-18T00:00:00Z open:4 closed:0
+0.45.0 due:2026-06-18T00:00:00Z open:55 closed:5
+0.46.0 due:2026-06-25T00:00:00Z open:0 closed:0
 
 ## Latest Releases
 
+v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
 v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
-v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 
 ## Recent Discussions (newest first)
 
+#3357 [Design Discussion] Embed consent server into ThunderID [Design]
+#3342 [Design Discussion] A single hub to discover and manage ThunderID's external connections [Design]
+#3327 Well-Known Attributes: a semantic layer over free-form user schemas [Ideas]
+#3321 [Design Discussion] Token revocation in Thunder ID [Design]
+#3310 [Design Discussion] Architectural First Principles for Resource Modeling in B2B Context [Design]
+#3292 Adopt Spec-Driven Development for ThunderID [Ideas]
 #3277 [Design Discussion] Email Provider Configuration via API and HTTP Support [Design]
 #3269 [Design Discussion] Account Linking and Attribute Syncing for External IDPs [Design]
 #3268 [Design Discussion] Should Permission Strings Be Unique Across Resource Servers? [Design]
@@ -38,12 +44,6 @@ v0.41.0 2026-05-29T12:30:39Z ThunderID v0.41.0
 #3192 Passing runtime metadata from executors to AuthnProvider implementation [Ideas]
 #3182 Resource Server UI — First-Class Console Representation [Design]
 #3181 [Design Discussion] Handling stale data when deleting resources [Design]
-#3157 Mapping external IdP claims to local claims [Design]
-#3137 Cleaning-up ThunderID Release Artifacts [General]
-#3128 [Design] Agent identity resolution in M2M and OBO token flows [Design]
-#3103 PII Leakage in Error-Path Logging [Design]
-#3099 [OID4VP] Support login with Verifiable Presentations [General]
-#3053 Make admin user creation optional during setup [Ideas]
 
 ## Labels (36 total)
 

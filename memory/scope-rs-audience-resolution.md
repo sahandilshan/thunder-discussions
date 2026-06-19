@@ -17,6 +17,8 @@ Two coupled design discussions opened 2026-06-11 about how ThunderID maps OAuth 
 **#3267 — Implicit scope→aud resolution vs explicit-only RFC 8707?** (behavior question)
 - Validated in code: `ComposeAudiences()` (`resourceindicators.go:188-232`) does an implicit reverse lookup when no `resource` param is sent — `FindResourceServersByPermissions()` returns every RS defining the granted scopes and folds ALL their identifiers into `aud`. Reverse lookup (`store.go:865-883`) is scoped by `deploymentID` only.
 - Approaches: A) explicit-only (strict RFC 8707 — `aud` only from `resource`), B) configurable toggle, C) keep implicit but refuse multiple audiences from one ambiguous scope.
+- **DECISION (2026-06-19): Approach B selected.** Janak proposed B (configurable toggle); Sahan +1'd. Rationale: B is a superset of A — if implicit proves harmful later, strip it to get A; can't go A→B without building from scratch. Conditions: new deployments default to `explicit`; implicit is opt-in convenience, not recommended security posture; consider deprecation horizon.
+- **Issue #3393** created to track implementation.
 - Migration concerns deliberately excluded per Sahan.
 
 **Coupling (flagged in both + relates to [[system-rs-representation]] #3261):**

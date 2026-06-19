@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-18 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-19 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-18. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-19. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 9 | Features: 0 | Improvements: 17
+Total open: 50 | Bugs: 10 | Features: 1 | Improvements: 13
 
 ## Milestones
 
-0.45.0 due:2026-06-18T00:00:00Z open:55 closed:5
+0.45.0 due:2026-06-18T00:00:00Z open:49 closed:15
 0.46.0 due:2026-06-25T00:00:00Z open:0 closed:0
 
 ## Latest Releases
@@ -24,6 +24,7 @@ v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 
 ## Recent Discussions (newest first)
 
+#3375 Basic Attributes — An Attributes set when defining user types [Design]
 #3357 [Design Discussion] Embed consent server into ThunderID [Design]
 #3342 [Design Discussion] A single hub to discover and manage ThunderID's external connections [Design]
 #3327 Well-Known Attributes: a semantic layer over free-form user schemas [Ideas]
@@ -43,7 +44,6 @@ v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 #3201 Session management design: definitions [Ideas]
 #3192 Passing runtime metadata from executors to AuthnProvider implementation [Ideas]
 #3182 Resource Server UI — First-Class Console Representation [Design]
-#3181 [Design Discussion] Handling stale data when deleting resources [Design]
 
 ## Labels (36 total)
 

@@ -1,29 +1,34 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-19 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-22 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-19. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-22. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 10 | Features: 1 | Improvements: 13
+Total open: 50 | Bugs: 6 | Features: 6 | Improvements: 7
 
 ## Milestones
 
-0.45.0 due:2026-06-18T00:00:00Z open:49 closed:15
-0.46.0 due:2026-06-25T00:00:00Z open:0 closed:0
+0.46.0 due:2026-06-25T00:00:00Z open:68 closed:7
+0.47.0 due:2026-07-02T00:00:00Z open:0 closed:0
 
 ## Latest Releases
 
+v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
-v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 
 ## Recent Discussions (newest first)
 
+#3418 CIBA User Binding Enforcement with Federated Authentication [General]
+#3417 [Design Discussion] Unified Auth Session Table [Design]
+#3414 CIBA Consent Handling and `access_denied` Propagation [General]
+#3392 [Design Discussion] Make the core RuntimeCryptoProvider pluggable (enabling PKCS#11 / HSM) [Design]
+#3388 [Design Discussion] SPIFFE-Based Client Authentication (draft-ietf-oauth-spiffe-client-auth) [Design]
 #3375 Basic Attributes — An Attributes set when defining user types [Design]
 #3357 [Design Discussion] Embed consent server into ThunderID [Design]
 #3342 [Design Discussion] A single hub to discover and manage ThunderID's external connections [Design]
@@ -39,11 +44,6 @@ v0.42.0 2026-06-04T18:51:18Z ThunderID v0.42.0
 #3242 [Design Discussion] Removing the SKIP_SECURITY flag while preserving the ability to create default resources [Design]
 #3239 [Design Discussion] SCIM 2.0 Integration For thunderID [Design]
 #3236 [Design Discussion] Adding AuthZEN-Compatible Access Evaluation APIs to ThunderID [Design]
-#3234 [Design Discussion] Atomic API Support for Magic Link based Authentication [Design]
-#3233 [Design Discussion] Configuration surface for OTP length, character set, and validity period [Design]
-#3201 Session management design: definitions [Ideas]
-#3192 Passing runtime metadata from executors to AuthnProvider implementation [Ideas]
-#3182 Resource Server UI — First-Class Console Representation [Design]
 
 ## Labels (36 total)
 

@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-22 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-23 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-22. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-23. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 6 | Features: 6 | Improvements: 7
+Total open: 50 | Bugs: 7 | Features: 6 | Improvements: 5
 
 ## Milestones
 
-0.46.0 due:2026-06-25T00:00:00Z open:68 closed:7
+0.46.0 due:2026-06-25T00:00:00Z open:68 closed:9
 0.47.0 due:2026-07-02T00:00:00Z open:0 closed:0
 
 ## Latest Releases
@@ -24,6 +24,7 @@ v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
 
 ## Recent Discussions (newest first)
 
+#3461 [Design Discussion] Generic server-wide configuration store. [Design]
 #3418 CIBA User Binding Enforcement with Federated Authentication [General]
 #3417 [Design Discussion] Unified Auth Session Table [Design]
 #3414 CIBA Consent Handling and `access_denied` Propagation [General]
@@ -43,7 +44,6 @@ v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
 #3261 How Should the System Resource Server Represent ThunderID? [Design]
 #3242 [Design Discussion] Removing the SKIP_SECURITY flag while preserving the ability to create default resources [Design]
 #3239 [Design Discussion] SCIM 2.0 Integration For thunderID [Design]
-#3236 [Design Discussion] Adding AuthZEN-Compatible Access Evaluation APIs to ThunderID [Design]
 
 ## Labels (36 total)
 

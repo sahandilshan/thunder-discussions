@@ -11,7 +11,7 @@ An ongoing intelligence operation monitoring "IAM for AI" and "AI for IAM" acros
 
 **Why:** Sahan wants to own both domains in ThunderID. Requires continuous external radar — what vendors are doing, what specs are emerging, where ThunderID leads or has gaps.
 
-**How to apply:** When Sahan says "research today" or similar, read the latest `intelligence/signals/` file and run the deep-research harness on interesting items. Cross-reference against ThunderID via `gh`. Synthesize into `intelligence/knowledge-base/` vendor files. Every claim must be freshly searched and cited — never use training-data recall for vendor claims.
+**How to apply:** When Sahan says "research today" or similar, read the latest `intelligence/signals/` file first — that's the default source. **Never** launch a deep-research harness automatically; always ask Sahan and get explicit approval before running one (see [[feedback-no-auto-deep-research]]). Cross-reference against ThunderID via `gh`. Synthesize into `intelligence/knowledge-base/` vendor files. Every claim must be freshly searched and cited — never use training-data recall for vendor claims.
 
 ## Architecture
 

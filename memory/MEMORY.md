@@ -5,6 +5,7 @@
 - [Challenge Ideas](feedback-challenge-ideas.md) — Provide counter-arguments, don't just agree
 - [No Default CC](feedback-no-default-cc.md) — Don't assume who to CC; ask Sahan each time
 - [Session Protocol](session-protocol.md) — Auto-update memory at end of every chat session
+- [No Auto Deep Research](feedback-no-auto-deep-research.md) — NEVER run deep-research without explicit approval; use daily scout output first
 
 ## Design Principles
 - [Design Principles](design-principles.md) — Scope/claims separation, avoid over-engineering, OTel philosophy

@@ -25,6 +25,7 @@
 - [Scope→RS Audience Resolution](scope-rs-audience-resolution.md) — Discussions #3268 (permission string uniqueness) & #3267 (implicit scope→aud vs explicit RFC 8707), deployment-level uniqueness, coupling with #3261
 - [Spec-Driven Development](spec-driven-development.md) — Discussion #3292, Brion's specs/ proposal; our feedback: enforcement (CI gate) + test vectors as source of truth
 - [SPIFFE Client Auth](spiffe-client-auth.md) — Issue #3387, Discussion #3388, three auth mechanisms per IETF draft, phased rollout
+- [Consent Scope Update](consent-scope-update.md) — Issue #3467, adding scopes to app with existing consents fails, incremental consent proposed
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

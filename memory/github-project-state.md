@@ -9,12 +9,12 @@ Auto-synced on 2026-06-23. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 7 | Features: 6 | Improvements: 5
+Total open: 50 | Bugs: 9 | Features: 5 | Improvements: 6
 
 ## Milestones
 
-0.46.0 due:2026-06-25T00:00:00Z open:68 closed:9
-0.47.0 due:2026-07-02T00:00:00Z open:0 closed:0
+0.46.0 due:2026-06-24T00:00:00Z open:72 closed:11
+0.47.0 due:2026-06-26T00:00:00Z open:0 closed:0
 
 ## Latest Releases
 

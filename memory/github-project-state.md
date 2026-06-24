@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-23 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-24 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-23. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-24. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 9 | Features: 5 | Improvements: 6
+Total open: 50 | Bugs: 10 | Features: 4 | Improvements: 6
 
 ## Milestones
 
-0.46.0 due:2026-06-24T00:00:00Z open:72 closed:11
+0.46.0 due:2026-06-24T00:00:00Z open:72 closed:12
 0.47.0 due:2026-06-26T00:00:00Z open:0 closed:0
 
 ## Latest Releases

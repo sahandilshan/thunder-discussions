@@ -1,29 +1,29 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-24 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-25 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-24. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-25. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 10 | Features: 4 | Improvements: 6
+Total open: 50 | Bugs: 8 | Features: 9 | Improvements: 9
 
 ## Milestones
 
-0.46.0 due:2026-06-24T00:00:00Z open:72 closed:12
-0.47.0 due:2026-06-26T00:00:00Z open:0 closed:0
+0.47.0 due:2026-06-25T00:00:00Z open:71 closed:1
 
 ## Latest Releases
 
+v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
-v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
 
 ## Recent Discussions (newest first)
 
+#3525 [Design Discussion] Permission-to-scope aliasing [Design]
 #3461 [Design Discussion] Generic server-wide configuration store. [Design]
 #3418 CIBA User Binding Enforcement with Federated Authentication [General]
 #3417 [Design Discussion] Unified Auth Session Table [Design]
@@ -43,7 +43,6 @@ v0.43.0 2026-06-09T17:23:41Z ThunderID v0.43.0
 #3267 [Design Discussion] Should ThunderID Auto-Resolve aud from Scopes, or Only Honor Explicit resource (RFC 8707)? [Design]
 #3261 How Should the System Resource Server Represent ThunderID? [Design]
 #3242 [Design Discussion] Removing the SKIP_SECURITY flag while preserving the ability to create default resources [Design]
-#3239 [Design Discussion] SCIM 2.0 Integration For thunderID [Design]
 
 ## Labels (36 total)
 

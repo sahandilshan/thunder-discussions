@@ -27,6 +27,7 @@
 - [SPIFFE Client Auth](spiffe-client-auth.md) — Issue #3387, Discussion #3388, three auth mechanisms per IETF draft, phased rollout
 - [Consent Scope Update](consent-scope-update.md) — Issue #3467, adding scopes to app with existing consents fails, incremental consent proposed
 - [Agent as Subject](agent-as-subject.md) — Discussion #3541, agent subject credentials + flow compatibility design
+- [Multi-Agent Hierarchy](multi-agent-hierarchy.md) — Discussion #3608, representing orchestrator/sub-agent topologies as static identity relationships
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

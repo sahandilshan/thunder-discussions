@@ -1,19 +1,20 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-25 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-06-30 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-25. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-06-30. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 8 | Features: 9 | Improvements: 9
+Total open: 50 | Bugs: 10 | Features: 10 | Improvements: 8
 
 ## Milestones
 
-0.47.0 due:2026-06-25T00:00:00Z open:71 closed:1
+0.47.0 due:2026-07-02T00:00:00Z open:79 closed:17
+0.48.0 due:2026-07-09T00:00:00Z open:3 closed:0
 
 ## Latest Releases
 
@@ -23,6 +24,11 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 
 ## Recent Discussions (newest first)
 
+#3582 [Design Discussion] Decouple Runtime Persistence from Engine Packages via RuntimeStoreProvider[Design Discussion] [Design]
+#3569 Naming the 4th database — seeking approval on operation database [Ideas]
+#3549 Community Showcase: A Dedicated Place for Solutions Built Around ThunderID [Ideas]
+#3541 Agent as Subject: Credentials & Flow Compatibility [Design]
+#3537 [Design Discussion] Implement Flow Definition Validator [Design]
 #3525 [Design Discussion] Permission-to-scope aliasing [Design]
 #3461 [Design Discussion] Generic server-wide configuration store. [Design]
 #3418 CIBA User Binding Enforcement with Federated Authentication [General]
@@ -38,11 +44,6 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 #3310 [Design Discussion] Architectural First Principles for Resource Modeling in B2B Context [Design]
 #3292 Adopt Spec-Driven Development for ThunderID [Ideas]
 #3277 [Design Discussion] Email Provider Configuration via API and HTTP Support [Design]
-#3269 [Design Discussion] Account Linking and Attribute Syncing for External IDPs [Design]
-#3268 [Design Discussion] Should Permission Strings Be Unique Across Resource Servers? [Design]
-#3267 [Design Discussion] Should ThunderID Auto-Resolve aud from Scopes, or Only Honor Explicit resource (RFC 8707)? [Design]
-#3261 How Should the System Resource Server Represent ThunderID? [Design]
-#3242 [Design Discussion] Removing the SKIP_SECURITY flag while preserving the ability to create default resources [Design]
 
 ## Labels (36 total)
 

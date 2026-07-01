@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-06-30 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-01 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-06-30. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-01. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 10 | Features: 10 | Improvements: 8
+Total open: 50 | Bugs: 8 | Features: 2 | Improvements: 11
 
 ## Milestones
 
-0.47.0 due:2026-07-02T00:00:00Z open:79 closed:17
+0.47.0 due:2026-07-02T00:00:00Z open:86 closed:18
 0.48.0 due:2026-07-09T00:00:00Z open:3 closed:0
 
 ## Latest Releases
@@ -24,6 +24,8 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 
 ## Recent Discussions (newest first)
 
+#3612 [Design Discussion] [UI] Server Configurations, navigation & layout [Design]
+#3608 [Design] Multi-Agent Hierarchy and Connection Representation [Design]
 #3582 [Design Discussion] Decouple Runtime Persistence from Engine Packages via RuntimeStoreProvider[Design Discussion] [Design]
 #3569 Naming the 4th database — seeking approval on operation database [Ideas]
 #3549 Community Showcase: A Dedicated Place for Solutions Built Around ThunderID [Ideas]
@@ -42,8 +44,6 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 #3327 Well-Known Attributes: a semantic layer over free-form user schemas [Ideas]
 #3321 [Design Discussion] Token revocation in Thunder ID [Design]
 #3310 [Design Discussion] Architectural First Principles for Resource Modeling in B2B Context [Design]
-#3292 Adopt Spec-Driven Development for ThunderID [Ideas]
-#3277 [Design Discussion] Email Provider Configuration via API and HTTP Support [Design]
 
 ## Labels (36 total)
 

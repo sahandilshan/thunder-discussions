@@ -28,6 +28,7 @@
 - [Consent Scope Update](consent-scope-update.md) — Issue #3467, adding scopes to app with existing consents fails, incremental consent proposed
 - [Agent as Subject](agent-as-subject.md) — Discussion #3541, agent subject credentials + flow compatibility design
 - [Multi-Agent Hierarchy](multi-agent-hierarchy.md) — Discussion #3608, representing orchestrator/sub-agent topologies as static identity relationships
+- [MCP Gap Analysis](mcp-gap-analysis.md) — 2026-07-02 full review: ThunderID MCP inventory vs spec world; CIMD #1 gap, DCR deprecated in MCP 2026-07-28 RC
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities
@@ -38,7 +39,6 @@
 
 ## Research & Intelligence
 - [IAM × AI Intelligence Operation](iam-ai-intelligence-operation.md) — Daily 2AM Opus scout + interactive deep-dives; 26 vendors × 10 capabilities; routine trig_01UEpDdMSzQurXVAvP35ohLf
-- [MCP IAM Vendor Research](mcp-iam-vendor-research.md) — How Auth0, Okta, Entra, Google, WorkOS, Descope etc. support MCP; ThunderID opportunities
 - [Token Cleanup Discussion](token-cleanup-discussion.md) — Discussion #2781, vendor analysis on token purge strategies across 6 IAM platforms
 
 ## Planning

@@ -1,20 +1,20 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-02 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-03 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-02. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-03. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 10 | Features: 3 | Improvements: 12
+Total open: 50 | Bugs: 12 | Features: 1 | Improvements: 10
 
 ## Milestones
 
-0.47.0 due:2026-07-02T00:00:00Z open:84 closed:26
-0.48.0 due:2026-07-09T00:00:00Z open:6 closed:0
+0.47.0 due:2026-07-02T00:00:00Z open:84 closed:38
+0.48.0 due:2026-07-09T00:00:00Z open:7 closed:0
 
 ## Latest Releases
 
@@ -24,6 +24,10 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 
 ## Recent Discussions (newest first)
 
+#3692 Support CIMD (Client ID Metadata Documents) in Thunder [Design]
+#3683 ThunderID Console as a dedicated Desktop/Mobile App [Show and tell]
+#3667 First-class inputs for interceptors, and consumer-owned clearing of single-use inputs [Ideas]
+#3664 Support declaring application_type at DCR (SEP-837) for MCP 2026-07-28 spec [Design]
 #3612 [Design Discussion] [UI] Server Configurations, navigation & layout [Design]
 #3608 [Design] Multi-Agent Hierarchy and Connection Representation [Design]
 #3582 [Design Discussion] Decouple Runtime Persistence from Engine Packages via RuntimeStoreProvider[Design Discussion] [Design]
@@ -39,11 +43,7 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 #3392 [Design Discussion] Make the core RuntimeCryptoProvider pluggable (enabling PKCS#11 / HSM) [Design]
 #3388 [Design Discussion] SPIFFE-Based Client Authentication (draft-ietf-oauth-spiffe-client-auth) [Design]
 #3375 Basic Attributes — An Attributes set when defining user types [Design]
-#3357 [Design Discussion] Embed consent server into ThunderID [Design]
-#3342 [Design Discussion] A single hub to discover and manage ThunderID's external connections [Design]
-#3327 Well-Known Attributes: a semantic layer over free-form user schemas [Ideas]
-#3321 [Design Discussion] Token revocation in Thunder ID [Design]
-#3310 [Design Discussion] Architectural First Principles for Resource Modeling in B2B Context [Design]
+#3673 Basic SSO: reuse an existing login session across applications [Design]
 
 ## Labels (36 total)
 

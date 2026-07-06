@@ -1,20 +1,20 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-03 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-06 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-03. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-06. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 12 | Features: 1 | Improvements: 10
+Total open: 50 | Bugs: 11 | Features: 2 | Improvements: 13
 
 ## Milestones
 
-0.47.0 due:2026-07-02T00:00:00Z open:84 closed:38
-0.48.0 due:2026-07-09T00:00:00Z open:7 closed:0
+0.47.0 due:2026-07-02T00:00:00Z open:5 closed:50
+0.48.0 due:2026-07-09T00:00:00Z open:86 closed:1
 
 ## Latest Releases
 
@@ -24,6 +24,10 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 
 ## Recent Discussions (newest first)
 
+#3732 Proposal: Organization-level application defaults with sparse per-app overrides [Ideas]
+#3726 [Design Discussion] Writing Application Logs to a File [Design]
+#3717 [OID4VCI] Issue Verifiable Credentials from ThunderID [General]
+#3716 [Design Discussion] Redesign the Agent View/Edit [Design]
 #3692 Support CIMD (Client ID Metadata Documents) in Thunder [Design]
 #3683 ThunderID Console as a dedicated Desktop/Mobile App [Show and tell]
 #3667 First-class inputs for interceptors, and consumer-owned clearing of single-use inputs [Ideas]
@@ -40,10 +44,6 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 #3418 CIBA User Binding Enforcement with Federated Authentication [General]
 #3417 [Design Discussion] Unified Auth Session Table [Design]
 #3414 CIBA Consent Handling and `access_denied` Propagation [General]
-#3392 [Design Discussion] Make the core RuntimeCryptoProvider pluggable (enabling PKCS#11 / HSM) [Design]
-#3388 [Design Discussion] SPIFFE-Based Client Authentication (draft-ietf-oauth-spiffe-client-auth) [Design]
-#3375 Basic Attributes — An Attributes set when defining user types [Design]
-#3673 Basic SSO: reuse an existing login session across applications [Design]
 
 ## Labels (36 total)
 

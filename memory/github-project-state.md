@@ -1,31 +1,31 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-06 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-07 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-06. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-07. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 11 | Features: 2 | Improvements: 13
+Total open: 50 | Bugs: 15 | Features: 2 | Improvements: 15
 
 ## Milestones
 
-0.47.0 due:2026-07-02T00:00:00Z open:5 closed:50
-0.48.0 due:2026-07-09T00:00:00Z open:86 closed:1
+0.48.0 due:2026-07-09T00:00:00Z open:98 closed:5
 
 ## Latest Releases
 
+v0.47.0 2026-07-06T09:43:51Z ThunderID v0.47.0
 v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
-v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 
 ## Recent Discussions (newest first)
 
+#3749 Design Long running performance tests [Design]
 #3732 Proposal: Organization-level application defaults with sparse per-app overrides [Ideas]
-#3726 [Design Discussion] Writing Application Logs to a File [Design]
+#3726 [Design Discussion] Providing support for append logs to a file [Design]
 #3717 [OID4VCI] Issue Verifiable Credentials from ThunderID [General]
 #3716 [Design Discussion] Redesign the Agent View/Edit [Design]
 #3692 Support CIMD (Client ID Metadata Documents) in Thunder [Design]
@@ -43,7 +43,6 @@ v0.44.0 2026-06-12T18:28:59Z ThunderID v0.44.0
 #3461 [Design Discussion] Generic server-wide configuration store. [Design]
 #3418 CIBA User Binding Enforcement with Federated Authentication [General]
 #3417 [Design Discussion] Unified Auth Session Table [Design]
-#3414 CIBA Consent Handling and `access_denied` Propagation [General]
 
 ## Labels (36 total)
 

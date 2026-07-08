@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-07 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-08 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-07. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-08. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 15 | Features: 2 | Improvements: 15
+Total open: 50 | Bugs: 17 | Features: 1 | Improvements: 16
 
 ## Milestones
 
-0.48.0 due:2026-07-09T00:00:00Z open:98 closed:5
+0.48.0 due:2026-07-09T00:00:00Z open:100 closed:11
 
 ## Latest Releases
 
@@ -23,6 +23,7 @@ v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 
 ## Recent Discussions (newest first)
 
+#3809 A curated set of AI skills for developing and contributing to ThunderID [Ideas]
 #3749 Design Long running performance tests [Design]
 #3732 Proposal: Organization-level application defaults with sparse per-app overrides [Ideas]
 #3726 [Design Discussion] Providing support for append logs to a file [Design]
@@ -42,7 +43,6 @@ v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 #3525 [Design Discussion] Permission-to-scope aliasing [Design]
 #3461 [Design Discussion] Generic server-wide configuration store. [Design]
 #3418 CIBA User Binding Enforcement with Federated Authentication [General]
-#3417 [Design Discussion] Unified Auth Session Table [Design]
 
 ## Labels (36 total)
 

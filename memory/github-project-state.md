@@ -1,19 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-09 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-10 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-09. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-10. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 18 | Features: 2 | Improvements: 15
+Total open: 50 | Bugs: 15 | Features: 3 | Improvements: 18
 
 ## Milestones
 
-0.48.0 due:2026-07-09T00:00:00Z open:104 closed:14
+0.48.0 due:2026-07-09T00:00:00Z open:101 closed:21
 
 ## Latest Releases
 
@@ -23,6 +23,10 @@ v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 
 ## Recent Discussions (newest first)
 
+#3876 [Design Discussion] Introduce a grant_id (token-family identifier) for grant-scoped revocation [Design]
+#3875 Give the Wayfinder sample a backend to have native and Direct API flows [Design]
+#3873 [UX] Admin resets credentials for user entities via console [Ideas]
+#3868 [Design Discussion] Native Kubernetes support for ThunderID via CRDs and an Operator [Design]
 #3843 [Design Discussion] Default secret configurations in ThunderID [Design]
 #3831 Proposal: Support multiple client authentication methods per app instead of a single pinned `tokenEndpointAuthMethod` [Ideas]
 #3824 Add e2e test coverage for sample app use cases [Ideas]
@@ -39,10 +43,6 @@ v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 #3664 Support declaring application_type at DCR (SEP-837) for MCP 2026-07-28 spec [Design]
 #3612 [Design Discussion] [UI] Server Configurations, navigation & layout [Design]
 #3608 [Design] Multi-Agent Hierarchy and Connection Representation [Design]
-#3582 [Design Discussion] Decouple Runtime Persistence from Engine Packages via RuntimeStoreProvider[Design Discussion] [Design]
-#3569 Naming the 4th database — seeking approval on operation database [Ideas]
-#3549 Community Showcase: A Dedicated Place for Solutions Built Around ThunderID [Ideas]
-#3541 Agent as Subject: Credentials & Flow Compatibility [Design]
 
 ## Labels (36 total)
 

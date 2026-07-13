@@ -1,28 +1,35 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-10 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-13 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-10. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-13. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 15 | Features: 3 | Improvements: 18
+Total open: 50 | Bugs: 14 | Features: 3 | Improvements: 16
 
 ## Milestones
 
-0.48.0 due:2026-07-09T00:00:00Z open:101 closed:21
+0.48.0 due:2026-07-09T00:00:00Z open:34 closed:48
+0.49.0 due:2026-07-16T00:00:00Z open:50 closed:5
 
 ## Latest Releases
 
+v0.48.0 2026-07-11T06:42:36Z ThunderID v0.48.0
 v0.47.0 2026-07-06T09:43:51Z ThunderID v0.47.0
 v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
-v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 
 ## Recent Discussions (newest first)
 
+#3916 Logout implementation architecture [Design]
+#3902 Design: Identity Assertion JWT Authorization Grant (ID-JAG) Support [Design]
+#3899 Define the SDK experience for Agents [General]
+#3897 [Proposal] `/users/me/schema` Endpoint for Metadata-Driven Profile Generation [Ideas]
+#3894 [Design Discussion] Native consent management [Design]
+#3888 [UX] Move the Entity (User and Agent) Attribute edit section as First Class Tab in Edit Pages [General]
 #3876 [Design Discussion] Introduce a grant_id (token-family identifier) for grant-scoped revocation [Design]
 #3875 Give the Wayfinder sample a backend to have native and Direct API flows [Design]
 #3873 [UX] Admin resets credentials for user entities via console [Ideas]
@@ -37,12 +44,6 @@ v0.45.0 2026-06-19T18:44:53Z ThunderID v0.45.0
 #3726 [Design Discussion] Providing support for append logs to a file [Design]
 #3717 [OID4VCI] Issue Verifiable Credentials from ThunderID [General]
 #3716 [Design Discussion] Redesign the Agent View/Edit [Design]
-#3692 Support CIMD (Client ID Metadata Documents) in Thunder [Design]
-#3683 ThunderID Console as a dedicated Desktop/Mobile App [Show and tell]
-#3667 First-class inputs for interceptors, and consumer-owned clearing of single-use inputs [Ideas]
-#3664 Support declaring application_type at DCR (SEP-837) for MCP 2026-07-28 spec [Design]
-#3612 [Design Discussion] [UI] Server Configurations, navigation & layout [Design]
-#3608 [Design] Multi-Agent Hierarchy and Connection Representation [Design]
 
 ## Labels (36 total)
 

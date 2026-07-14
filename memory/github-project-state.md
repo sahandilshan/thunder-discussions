@@ -1,20 +1,19 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-13 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-14 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-13. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-14. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 14 | Features: 3 | Improvements: 16
+Total open: 50 | Bugs: 19 | Features: 4 | Improvements: 16
 
 ## Milestones
 
-0.48.0 due:2026-07-09T00:00:00Z open:34 closed:48
-0.49.0 due:2026-07-16T00:00:00Z open:50 closed:5
+0.49.0 due:2026-07-16T00:00:00Z open:94 closed:16
 
 ## Latest Releases
 
@@ -24,10 +23,14 @@ v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 
 ## Recent Discussions (newest first)
 
+#3984 A Dedicated Sample Application for AI agent use cases [General]
+#3976 [DOCs] Agent ID Getting started experience [General]
+#3965 [Design Discussion] Revisit OTP Service Boundaries – Move SendOTP() out of notification.OTPService [Design]
+#3961 [Design Discussion] Token Status List for Token Revocation [Design]
 #3916 Logout implementation architecture [Design]
 #3902 Design: Identity Assertion JWT Authorization Grant (ID-JAG) Support [Design]
 #3899 Define the SDK experience for Agents [General]
-#3897 [Proposal] `/users/me/schema` Endpoint for Metadata-Driven Profile Generation [Ideas]
+#3897 [Proposal] Requirement of Metadata Endpoint for Dynamic User Profile Rendering [Ideas]
 #3894 [Design Discussion] Native consent management [Design]
 #3888 [UX] Move the Entity (User and Agent) Attribute edit section as First Class Tab in Edit Pages [General]
 #3876 [Design Discussion] Introduce a grant_id (token-family identifier) for grant-scoped revocation [Design]
@@ -40,10 +43,6 @@ v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 #3821 [Design Discussion] MCP Authorization Compliance — 2026-07-28 RC [Design]
 #3809 A curated set of AI skills for developing and contributing to ThunderID [Ideas]
 #3749 Design Long running performance tests [Design]
-#3732 Proposal: Organization-level application defaults with sparse per-app overrides [Ideas]
-#3726 [Design Discussion] Providing support for append logs to a file [Design]
-#3717 [OID4VCI] Issue Verifiable Credentials from ThunderID [General]
-#3716 [Design Discussion] Redesign the Agent View/Edit [Design]
 
 ## Labels (36 total)
 

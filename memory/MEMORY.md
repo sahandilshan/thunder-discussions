@@ -44,7 +44,7 @@
 - [Token Cleanup Discussion](token-cleanup-discussion.md) — Discussion #2781, vendor analysis on token purge strategies across 6 IAM platforms
 
 ## Planning
-- [Documentation Plans](documentation-plans.md) — Persona-based doc structure proposed
+- [Documentation Plans](documentation-plans.md) — Persona-based doc structure; Discussion #4100 four-pillar proposal (Quick Start/Guides/Use Cases/Reference)
 
 ## Project Context
 - [ThunderID Overview](thunderid-overview.md) — Open-source OAuth2/IAM platform, Asgardeo/WSO2

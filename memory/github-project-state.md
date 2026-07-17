@@ -1,19 +1,21 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-15 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-17 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-15. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-17. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 18 | Features: 4 | Improvements: 17
+Total open: 50 | Bugs: 17 | Features: 2 | Improvements: 21
 
 ## Milestones
 
-0.49.0 due:2026-07-16T00:00:00Z open:96 closed:19
+1.1.0 due:none open:2 closed:0
+0.49.0 due:2026-07-16T00:00:00Z open:89 closed:30
+1.0.0 due:2026-07-31T00:00:00Z open:4 closed:0
 
 ## Latest Releases
 
@@ -23,6 +25,8 @@ v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 
 ## Recent Discussions (newest first)
 
+#4082 [Design Discussion] Requirement of Metadata Endpoint for Dynamic User Profile Rendering [Design]
+#4065 Strategy for maintaining ThunderID samples [Ideas]
 #3984 A Dedicated Sample Application for AI agent use cases [General]
 #3976 [DOCs] Agent ID Getting started experience [General]
 #3965 [Design Discussion] Revisit OTP Service Boundaries – Move SendOTP() out of notification.OTPService [Design]
@@ -41,8 +45,6 @@ v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 #3831 Proposal: Support multiple client authentication methods per app instead of a single pinned `tokenEndpointAuthMethod` [Ideas]
 #3824 Add e2e test coverage for sample app use cases [Ideas]
 #3821 [Design Discussion] MCP Authorization Compliance — 2026-07-28 RC [Design]
-#3809 A curated set of AI skills for developing and contributing to ThunderID [Ideas]
-#3749 Design Long running performance tests [Design]
 
 ## Labels (36 total)
 

@@ -31,6 +31,7 @@
 - [MCP Gap Analysis](mcp-gap-analysis.md) — 2026-07-02 full review: ThunderID MCP inventory vs spec world; CIMD #1 gap, DCR deprecated in MCP 2026-07-28 RC
 - [MCP RC Compliance](mcp-rc-compliance.md) — 2026-07-28 RC tracker: Design discussion #3821 + umbrella issue #3822, cross-linked; #2219 stays as 2025-11-25 baseline
 - [ID-JAG Support](id-jag-support.md) — Issue #2440, Discussion #3902, cross-app access via identity assertion grant, 8 open design questions
+- [Trusted Token Issuers on Connections](trusted-token-issuers-connection.md) — Issue #4109, Discussion #4110, dedicated /connections/trusted-token-issuers path, capability-on-connection model
 
 ## Codebase & Architecture
 - [Codebase Architecture](codebase-architecture.md) — Entity model, domain packages, databases, flow engine, OAuth capabilities

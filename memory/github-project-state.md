@@ -1,30 +1,34 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-17 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-20 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-17. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-20. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 17 | Features: 2 | Improvements: 21
+Total open: 50 | Bugs: 30 | Features: 2 | Improvements: 9
 
 ## Milestones
 
-1.1.0 due:none open:2 closed:0
-0.49.0 due:2026-07-16T00:00:00Z open:89 closed:30
-1.0.0 due:2026-07-31T00:00:00Z open:4 closed:0
+1.1.0 due:none open:7 closed:0
+0.49.0 due:2026-07-16T00:00:00Z open:66 closed:38
+1.0.0 due:2026-07-31T00:00:00Z open:78 closed:7
 
 ## Latest Releases
 
+v1.0.0-alpha 2026-07-17T12:24:15Z ThunderID v1.0.0-alpha
 v0.48.0 2026-07-11T06:42:36Z ThunderID v0.48.0
 v0.47.0 2026-07-06T09:43:51Z ThunderID v0.47.0
-v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 
 ## Recent Discussions (newest first)
 
+#4130 [Design Discussion] Session visibility - list live SSO sessions per user and per application [Design]
+#4110 Design: Dedicated path for registering trusted token issuers (/connections/trusted-token-issuers) [Design]
+#4105 Do consent purposes need name-spacing ? [General]
+#4100 Rethinking the doc structure: what should the "Use Cases" section actually contain? [Ideas]
 #4082 [Design Discussion] Requirement of Metadata Endpoint for Dynamic User Profile Rendering [Design]
 #4065 Strategy for maintaining ThunderID samples [Ideas]
 #3984 A Dedicated Sample Application for AI agent use cases [General]
@@ -41,10 +45,6 @@ v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 #3875 Give the Wayfinder sample a backend to have native and Direct API flows [Design]
 #3873 [UX] Admin resets credentials for user entities via console [Ideas]
 #3868 [Design Discussion] Native Kubernetes support for ThunderID via CRDs and an Operator [Design]
-#3843 [Design Discussion] Default secret configurations in ThunderID [Design]
-#3831 Proposal: Support multiple client authentication methods per app instead of a single pinned `tokenEndpointAuthMethod` [Ideas]
-#3824 Add e2e test coverage for sample app use cases [Ideas]
-#3821 [Design Discussion] MCP Authorization Compliance — 2026-07-28 RC [Design]
 
 ## Labels (36 total)
 

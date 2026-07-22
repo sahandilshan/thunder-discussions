@@ -1,30 +1,32 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-21 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-22 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-21. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-22. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 33 | Features: 2 | Improvements: 9
+Total open: 50 | Bugs: 27 | Features: 1 | Improvements: 14
 
 ## Milestones
 
 1.1.0 due:none open:7 closed:0
-0.49.0 due:2026-07-16T00:00:00Z open:63 closed:41
-1.0.0 due:2026-07-31T00:00:00Z open:82 closed:11
+0.49.0 due:2026-07-16T00:00:00Z open:61 closed:42
+1.0.0 due:2026-07-31T00:00:00Z open:85 closed:18
 
 ## Latest Releases
 
+v1.0.0-alpha 2026-07-21T09:14:17Z ThunderID v1.0.0-alpha
 v0.48.0 2026-07-11T06:42:36Z ThunderID v0.48.0
 v0.47.0 2026-07-06T09:43:51Z ThunderID v0.47.0
-v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 
 ## Recent Discussions (newest first)
 
+#4236 Architecture for a formal Avatar/Emoji URI spec [Ideas]
+#4227 Base OpenChoreo artifact strategy for ThunderID: ResourceType vs ComponentType [General]
 #4130 [Design Discussion] Session visibility - list live SSO sessions per user and per application [Design]
 #4110 Design: Dedicated path for registering trusted token issuers (/connections/trusted-token-issuers) [Design]
 #4105 Do consent purposes need name-spacing ? [General]
@@ -43,8 +45,6 @@ v0.46.0 2026-06-24T15:10:08Z ThunderID v0.46.0
 #3888 [UX] Move the Entity (User and Agent) Attribute edit section as First Class Tab in Edit Pages [General]
 #3876 [Design Discussion] Introduce a grant_id (token-family identifier) for grant-scoped revocation [Design]
 #3875 Give the Wayfinder sample a backend to have native and Direct API flows [Design]
-#3873 [UX] Admin resets credentials for user entities via console [Ideas]
-#3868 [Design Discussion] Native Kubernetes support for ThunderID via CRDs and an Operator [Design]
 
 ## Labels (36 total)
 

@@ -1,21 +1,21 @@
 ---
 name: github-project-state
-description: GitHub repo state auto-synced on 2026-07-22 — milestones, labels, discussions, release cadence, issue templates
+description: GitHub repo state auto-synced on 2026-07-23 — milestones, labels, discussions, release cadence, issue templates
 metadata:
   type: project
 ---
 
-Auto-synced on 2026-07-22. Verify with `gh` CLI for real-time state.
+Auto-synced on 2026-07-23. Verify with `gh` CLI for real-time state.
 
 ## Open Issues Summary
 
-Total open: 50 | Bugs: 27 | Features: 1 | Improvements: 14
+Total open: 50 | Bugs: 23 | Features: 0 | Improvements: 18
 
 ## Milestones
 
-1.1.0 due:none open:7 closed:0
-0.49.0 due:2026-07-16T00:00:00Z open:61 closed:42
-1.0.0 due:2026-07-31T00:00:00Z open:85 closed:18
+1.1.0 due:none open:9 closed:0
+0.49.0 due:2026-07-16T00:00:00Z open:59 closed:44
+1.0.0 due:2026-07-31T00:00:00Z open:90 closed:21
 
 ## Latest Releases
 
@@ -25,6 +25,9 @@ v0.47.0 2026-07-06T09:43:51Z ThunderID v0.47.0
 
 ## Recent Discussions (newest first)
 
+#4274 [Design Discussion] E2E Test Framework Improvements [Design]
+#4271 [Design Discussion] Bi-directional communication channel for private Data Plane to Control Plane communication [Design]
+#4263 [Design Discussion] System Resource Server Representation in ThunderID. [Design]
 #4236 Architecture for a formal Avatar/Emoji URI spec [Ideas]
 #4227 Base OpenChoreo artifact strategy for ThunderID: ResourceType vs ComponentType [General]
 #4130 [Design Discussion] Session visibility - list live SSO sessions per user and per application [Design]
@@ -42,9 +45,6 @@ v0.47.0 2026-07-06T09:43:51Z ThunderID v0.47.0
 #3899 Define the SDK experience for Agents [General]
 #3897 [Proposal] Requirement of Metadata Endpoint for Dynamic User Profile Rendering [Ideas]
 #3894 [Design Discussion] Native consent management [Design]
-#3888 [UX] Move the Entity (User and Agent) Attribute edit section as First Class Tab in Edit Pages [General]
-#3876 [Design Discussion] Introduce a grant_id (token-family identifier) for grant-scoped revocation [Design]
-#3875 Give the Wayfinder sample a backend to have native and Direct API flows [Design]
 
 ## Labels (36 total)
 
